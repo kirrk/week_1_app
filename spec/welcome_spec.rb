@@ -1,7 +1,10 @@
-class Welcome
-	attr_accessor :message
+require "minitest/autorun"
+require "minitest/spec"
+require "welcome"
 
-	def initialize 
-		@message = "Welcome aboard"
+describe Welcome do
+	it "has a message" do 
+		hello = Welcome.new
+		hello.message.must_match "welcome aboard"
 	end
 end
