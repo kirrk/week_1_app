@@ -6,4 +6,4 @@ Also incorporated is simple testing to ensure our HTML matches our desired text 
 
 
 screenshot:
-![Screenshot](/pathscreenshot_pass.JPG "Screenshot of passing spec")
+![Screenshot](/screenshot_pass.JPG "Screenshot of passing spec")
